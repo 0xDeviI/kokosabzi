@@ -10,4 +10,4 @@ def real_args(args: list):
     return args
 
 if __name__ == "__main__":
-    run_command("g++ -o bin/kokosabzi kokosabzi.cpp -std=c++17 -lssl -lcrypto")
+    run_command("g++ -o bin/kokosabzi kokosabzi.cpp -I libs/aes256 libs/aes256/AES.cpp -std=c++17 -lssl -lcrypto")
