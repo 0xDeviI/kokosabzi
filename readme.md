@@ -7,10 +7,10 @@ Kokosabzi is a c++ ransomware that currently works on linux-based OSs.
 Kokosabzi is just for educational purposes. Responsibilities of any illegal usage of source code or pre-built binary files is on yours.
 
 ### Information
-C++ Version: **17**
-Encryption algorithm: **AES, CBC mode**
-Decryptable: **No (currently)**
-Ransom acception: **No (currently)**
+- C++ Version: **17**
+- Encryption algorithm: **AES, CBC mode**
+- Decryptable: **No (currently)**
+- Ransom acception: **No (currently)**
 
 ### Compile
 If you want to compile source code by your own, you can make it done using g++ directly:
